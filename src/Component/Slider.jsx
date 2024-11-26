@@ -70,11 +70,6 @@ export  function Slider() {
         <SwiperSlide className='rounded-[40px] overflow-hidden'>
           <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
         </SwiperSlide>
-        <SwiperSlide className='rounded-[40px] overflow-hidden'>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-        </SwiperSlide>
-      
-
          </Swiper>
 
          </div>

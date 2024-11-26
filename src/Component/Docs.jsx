@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Code, Settings, Download } from 'lucide-react';
+import { BookOpen, Code, Settings, Download, ExternalLink } from 'lucide-react';
 
 const SwiperDocumentation = () => {
   return (
@@ -183,6 +183,21 @@ export default () => {
 };`}
           </pre>
         </section>
+
+        {/* Footer */}
+        <footer className="mt-12 border-t border-gray-200 pt-8 text-center">
+          <p className="text-gray-600 text-lg">
+            Written by <span className="font-bold text-gray-800">Apil Neupane</span>
+          </p>
+          <a
+            href="https://swiperjs.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-blue-600 font-semibold mt-4"
+          >
+            Learn More <ExternalLink className="ml-2" size={20} />
+          </a>
+        </footer>
       </div>
     </div>
   );
